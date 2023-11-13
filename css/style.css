@@ -1,0 +1,110 @@
+
+:root {
+--text: #4ebbd4;
+--bgmain: #FFF;
+--bgcolor: #271414;
+--subtext: #e1e2e2;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--bgcolor);
+}
+   
+ #landing {
+    margin: 159px; 
+    margin-left: 325px;  
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    border: 5px solid var(--text);
+    border-radius: 1%;
+    background-color: var(--subtext);
+} 
+
+ img { 
+    width: fit-content;
+    margin: 15px;
+    padding: 20px;
+    /* border: 4px solid var(--text); */
+    /* border-radius: 10px; */
+} 
+ .nav {
+    padding: 10px;
+    font-size: 12px;
+} 
+
+ .nav-link {
+    margin: 10px;
+    padding: 15px;
+    color: var(--bgcolor);
+    background-color: var(--text);
+    border-radius: 5px;
+  } 
+
+  /* About page */
+
+   header, footer {
+    margin: 20px;
+    margin-left: 20px;
+    padding: 0;
+    width: 90%;
+    display: grid;
+    justify-content: center; 
+    font-size: 24px;
+    color: var(--text);
+    border: 3px solid var(--text);
+    background-color: var(--bgmain);
+} 
+
+
+.link {
+    margin-right: 50px;
+    font-size: 24px;
+    color: var(--text);
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: var(--subtext);
+}
+
+main {
+    color: var(--text);
+}
+
+
+a:hover {
+    color: var(--bgcolor);
+}
+
+
+ footer {
+
+    color: var(--text);
+    background-color: var(--bgmain);
+}
+
+.contact-link {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colophon {
+    font-size: 12px;
+}
+
+/* Project */
+
+#carouselInfo {
+    font-size:18px;
+    color: black;
+    background-color: ;
+}
