@@ -17,29 +17,24 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--bgcolor);
 }
-   
- #landing {
-    margin: 159px; 
-    margin-left: 325px;  
-    justify-content: center;
-    width: 50%;
-    display: flex;
-    border: 5px solid var(--text);
-    border-radius: 1%;
-    background-color: var(--subtext);
-} 
+
+/* Landing Page */
+
+#landing {
+    margin-top: 35px;
+}
+
+.sec-main {
+    border-radius: 5%;
+    margin-top: 50px;
+    background-color: #e1e2e2;
+}
 
  img { 
     width: fit-content;
     margin: 15px;
     padding: 20px;
-    /* border: 4px solid var(--text); */
-    /* border-radius: 10px; */
-} 
- .nav {
-    padding: 10px;
-    font-size: 12px;
-} 
+}
 
  .nav-link {
     margin: 10px;
