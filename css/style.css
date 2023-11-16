@@ -103,8 +103,12 @@ a:hover {
 
 /* Project */
 
-#carouselInfo {
-    font-size:18px;
-    color: black;
-    background-color: ;
+#imgCarousel {
+    opacity: 0.5; 
+    color: #271414;
 }
+
+img:hover {
+    opacity: 1.0;
+  }
+
